@@ -70,8 +70,13 @@ dash_app.layout = html.Div(
                     html.Div(className='eight columns div-for-charts bg-grey',
                             children=[
                                 dcc.Graph(id="sales_employee", figure=fig_employee)
+                                
+                                
                             ]
                     ),
+                    
+                    
+                    
                 ]
             )
         ]
@@ -107,7 +112,7 @@ def update_graph(drop_month, drop_year):
         y = order_fig1['total']
             )
         ]
-    }
+    } 
 
 # ***************************************
 # Run the app
