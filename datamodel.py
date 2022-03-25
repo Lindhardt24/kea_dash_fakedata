@@ -7,7 +7,6 @@ import calendar
 # Import af datamodel
 # ***************************************
 
-#githubpath = 'https://raw.githubusercontent.com/TueHellsternKea/dashdemo/main/data/'
 githubpath = './data/'
 
 # Import from Excel file, 4 different sheets
